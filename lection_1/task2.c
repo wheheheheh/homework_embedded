@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-int main()
+int main() 
 {
-    printf("Let's\n");
-    printf("       go\n");
-    printf("         to walk\n");
+   printf(
+    "   *\n"
+    "  ***\n"
+    " *****\n"
+    "*******\n"
+    " HHOHH\n"
+    " ZZZZZ\n");
 }
