@@ -3,8 +3,6 @@
 int main(void)
 {
     int a, b, c;
-    
     scanf("%d%d%d", &a, &b, &c);
-    printf("%d+%d+%d=%d", a, b, c, a+b+c);
-    return 0;
+    (a < b && b < c) ? printf("YES\n") : printf("NO\n");
 }
