@@ -9,4 +9,5 @@ int main(void)
     k = (y2*1. - y1) / (x2*1. - x1);
     b = y1 - (k * x1*1.);
     printf("%.2f %.2f\n", k, b);
+    return 0;
 }
